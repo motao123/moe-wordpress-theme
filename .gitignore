@@ -1,0 +1,42 @@
+# WordPress
+.DS_Store
+Thumbs.db
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Node modules (if using npm)
+node_modules/
+package-lock.json
+
+# Compiled files
+*.css.map
+*.js.map
+
+# Build files
+dist/
+build/
+
+# Cache
+.cache/
+*.cache
+
+# Backup files
+*.zip
+*.tar.gz
+*.rar
+
+# System files
+.DS_Store
+Desktop.ini
+

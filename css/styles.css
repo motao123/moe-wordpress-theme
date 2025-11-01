@@ -1,0 +1,493 @@
+/**
+ * Additional Styles for MOE WordPress Theme
+ * 补充样式文件
+ * 
+ * @package MOE
+ * @since 1.0
+ */
+
+/* 表格响应式包装 */
+.table-responsive {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin: 20px 0;
+}
+
+.table-responsive table {
+    width: 100%;
+    min-width: 600px;
+    border-collapse: collapse;
+}
+
+.table-responsive table th,
+.table-responsive table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+.table-responsive table th {
+    background: #f5f5f5;
+    font-weight: bold;
+}
+
+/* 阅读更多按钮 */
+.read-more {
+    margin-top: 20px;
+}
+
+.more-link {
+    display: inline-block;
+    padding: 10px 25px;
+    background: #24a5db;
+    color: #fff !important;
+    border-radius: 20px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.more-link:hover {
+    background: #1a8fbd;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* 面包屑导航 */
+#breadcrumbs {
+    padding: 15px 0;
+    font-size: 14px;
+    color: #999;
+}
+
+#breadcrumbs a {
+    color: #666;
+    transition: color 0.3s ease;
+}
+
+#breadcrumbs a:hover {
+    color: #24a5db;
+}
+
+#breadcrumbs .current {
+    color: #24a5db;
+}
+
+/* 分页样式增强 */
+#pagenavi ul.pagination {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 5px;
+}
+
+#pagenavi ul.pagination li {
+    border: none;
+}
+
+/* 动画效果 */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animated {
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+}
+
+.fadeIn {
+    animation-name: fadeIn;
+}
+
+/* 图片懒加载占位 */
+img.lazy {
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+img.lazy.loaded {
+    opacity: 1;
+}
+
+/* 分页链接样式 */
+.page-links {
+    clear: both;
+    margin: 20px 0;
+    padding: 20px 0;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+}
+
+.page-links .page-number {
+    display: inline-block;
+    padding: 5px 12px;
+    margin: 0 5px;
+    background: #f5f5f5;
+    border-radius: 4px;
+    color: #666;
+    transition: all 0.3s ease;
+}
+
+.page-links .page-number:hover,
+.page-links .page-number.current {
+    background: #24a5db;
+    color: #fff;
+}
+
+/* 小工具样式增强 */
+.widget ul li {
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.widget ul li:hover {
+    background: #f9f9f9;
+}
+
+.widget_recent_entries ul li,
+.widget_recent_comments ul li,
+.widget_archive ul li,
+.widget_categories ul li,
+.widget_pages ul li,
+.widget_meta ul li,
+.widget_nav_menu ul li {
+    padding: 10px;
+}
+
+/* 日历小工具 */
+.widget_calendar table {
+    width: 100%;
+    text-align: center;
+}
+
+.widget_calendar caption {
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.widget_calendar th,
+.widget_calendar td {
+    padding: 5px;
+}
+
+.widget_calendar td a {
+    display: block;
+    background: #24a5db;
+    color: #fff;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+/* 标签云小工具 */
+.tagcloud a,
+.widget_tag_cloud a {
+    display: inline-block;
+    padding: 5px 12px;
+    margin: 5px 5px 5px 0;
+    background: #f5f5f5;
+    border-radius: 15px;
+    font-size: 13px !important;
+    color: #666;
+    transition: all 0.3s ease;
+}
+
+.tagcloud a:hover,
+.widget_tag_cloud a:hover {
+    background: #24a5db;
+    color: #fff;
+    transform: translateY(-2px);
+}
+
+/* 搜索小工具 */
+.widget_search .search-form {
+    width: 100%;
+}
+
+.widget_search .search-field {
+    width: 100%;
+}
+
+/* 最新评论小工具 */
+.widget_recent_comments ul li {
+    line-height: 1.6;
+}
+
+.widget_recent_comments .comment-author-link {
+    font-weight: bold;
+    color: #24a5db;
+}
+
+/* RSS链接小工具 */
+.widget_rss ul li {
+    margin-bottom: 15px;
+}
+
+.widget_rss .rss-date {
+    display: block;
+    font-size: 12px;
+    color: #999;
+    margin-top: 5px;
+}
+
+/* 图片对齐方式 */
+.entry img.alignleft,
+.entry img.alignright {
+    max-width: 50%;
+}
+
+.entry img.alignleft {
+    margin: 10px 20px 10px 0;
+}
+
+.entry img.alignright {
+    margin: 10px 0 10px 20px;
+}
+
+.entry img.aligncenter {
+    display: block;
+    margin: 20px auto;
+}
+
+/* 图片说明文字 */
+.wp-caption {
+    max-width: 100%;
+}
+
+.wp-caption img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.wp-caption-text {
+    padding: 10px;
+    font-size: 13px;
+    color: #666;
+    text-align: center;
+    background: #f9f9f9;
+}
+
+/* 图库样式 */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.1);
+}
+
+.gallery-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 10px;
+    font-size: 12px;
+    text-align: center;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+}
+
+.gallery-item:hover .gallery-caption {
+    transform: translateY(0);
+}
+
+/* 视频响应式 */
+.entry iframe,
+.entry embed,
+.entry object,
+.entry video {
+    max-width: 100%;
+    height: auto;
+}
+
+/* 文章格式样式 */
+.format-quote blockquote {
+    font-size: 18px;
+    font-style: italic;
+    color: #666;
+    border-left: 4px solid #24a5db;
+    padding-left: 20px;
+    margin: 20px 0;
+}
+
+.format-link .entry-title a {
+    color: #24a5db;
+}
+
+.format-aside {
+    background: #f9f9f9;
+    padding: 20px;
+    border-left: 4px solid #24a5db;
+}
+
+/* 粘性文章 */
+.sticky {
+    border: 2px solid #24a5db;
+    position: relative;
+}
+
+.sticky:before {
+    content: '\f08d';
+    font-family: 'FontAwesome';
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #24a5db;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+/* 加载动画 */
+.loading {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.loading:after {
+    content: '';
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #24a5db;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* 无障碍改进 */
+.skip-link {
+    position: absolute;
+    top: -100%;
+    left: 0;
+    background: #24a5db;
+    color: #fff;
+    padding: 10px;
+    z-index: 9999;
+}
+
+.skip-link:focus {
+    top: 0;
+}
+
+/* 打印样式优化 */
+@media print {
+    body {
+        font-size: 12pt;
+        line-height: 1.5;
+        color: #000;
+        background: #fff;
+    }
+    
+    #header,
+    #footer,
+    #sidebar,
+    .comment-respond,
+    .nav-previous,
+    .nav-next,
+    #breadcrumbs,
+    #pagenavi,
+    .share-buttons {
+        display: none !important;
+    }
+    
+    .post {
+        box-shadow: none;
+        border: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    a {
+        text-decoration: underline;
+    }
+    
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+}
+
+/* 浏览器兼容性修复 */
+/* IE 11 */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .nav {
+        display: block;
+    }
+    
+    .nav > li {
+        display: inline-block;
+        vertical-align: top;
+    }
+}
+
+/* Edge 旧版本 */
+@supports (-ms-ime-align: auto) {
+    .nav {
+        display: block;
+    }
+}
+
+/* 深色模式支持（可选） */
+@media (prefers-color-scheme: dark) {
+    /* 可以在这里添加深色模式样式 */
+    /*
+    body {
+        background: #1a1a1a;
+        color: #e0e0e0;
+    }
+    
+    .post {
+        background: #2d2d2d;
+    }
+    
+    a {
+        color: #4db8ff;
+    }
+    */
+}
+
+/* 减少动画（无障碍） */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+

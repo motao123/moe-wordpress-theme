@@ -1,0 +1,151 @@
+/**
+ * 代码块溢出修复专用CSS
+ * Code Block Overflow Fix
+ * 
+ * @package MOE
+ * @since 1.0
+ */
+
+/* 确保所有容器不溢出 */
+#page,
+.post,
+.entry {
+    max-width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+/* 代码块严格限制 */
+.entry pre,
+.entry code,
+.post pre,
+.post code,
+article pre,
+article code {
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+}
+
+/* 代码块自动换行 */
+.entry pre,
+.post pre,
+article pre {
+    white-space: pre-wrap !important;
+    word-wrap: break-word !important;
+    word-break: break-all !important;
+    overflow-wrap: break-word !important;
+    overflow-x: auto !important;
+}
+
+.entry pre code,
+.post pre code,
+article pre code {
+    white-space: pre-wrap !important;
+    word-wrap: break-word !important;
+    word-break: break-all !important;
+    display: block !important;
+}
+
+/* 行内代码 */
+.entry code,
+.post code,
+article code {
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+}
+
+/* 确保代码块内所有子元素不溢出 */
+.entry pre *,
+.post pre *,
+article pre * {
+    max-width: 100% !important;
+    word-wrap: break-word !important;
+}
+
+/* 特殊情况：语法高亮插件可能添加的类 */
+.entry .code-block,
+.entry .highlight,
+.entry .syntaxhighlighter,
+.post .code-block,
+.post .highlight,
+.post .syntaxhighlighter {
+    max-width: 100% !important;
+    overflow-x: auto !important;
+    box-sizing: border-box !important;
+}
+
+.entry .code-block pre,
+.entry .highlight pre,
+.entry .syntaxhighlighter pre,
+.post .code-block pre,
+.post .highlight pre,
+.post .syntaxhighlighter pre {
+    white-space: pre-wrap !important;
+    word-wrap: break-word !important;
+    word-break: break-all !important;
+}
+
+/* WordPress默认代码块 */
+.wp-block-code,
+.wp-block-code code {
+    max-width: 100% !important;
+    white-space: pre-wrap !important;
+    word-wrap: break-word !important;
+    word-break: break-all !important;
+    overflow-x: auto !important;
+    box-sizing: border-box !important;
+}
+
+/* 确保表格也不溢出 */
+.entry table,
+.post table,
+article table {
+    max-width: 100% !important;
+    overflow-x: auto !important;
+    display: block !important;
+    box-sizing: border-box !important;
+}
+
+/* 确保图片不溢出 */
+.entry img,
+.post img,
+article img {
+    max-width: 100% !important;
+    height: auto !important;
+}
+
+/* 确保iframe和视频不溢出 */
+.entry iframe,
+.entry video,
+.entry embed,
+.entry object,
+.post iframe,
+.post video,
+.post embed,
+.post object,
+article iframe,
+article video,
+article embed,
+article object {
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+}
+
+/* 移动端额外优化 */
+@media screen and (max-width: 768px) {
+    .entry pre,
+    .post pre,
+    article pre {
+        padding: 10px !important;
+        font-size: 12px !important;
+        line-height: 1.4 !important;
+    }
+    
+    .entry code,
+    .post code,
+    article code {
+        font-size: 12px !important;
+    }
+}
+
+

@@ -1,0 +1,325 @@
+# Copyright (C) 2024 MOE WordPress Theme
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: MOE WordPress Theme 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-31 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: header.php
+msgid "主导航菜单"
+msgstr ""
+
+msgid "底部菜单"
+msgstr ""
+
+msgid "首页"
+msgstr ""
+
+msgid "管理后台"
+msgstr ""
+
+msgid "退出"
+msgstr ""
+
+msgid "微博"
+msgstr ""
+
+msgid "QQ"
+msgstr ""
+
+msgid "GitHub"
+msgstr ""
+
+#: footer.php
+msgid "返回顶部"
+msgstr ""
+
+#: index.php, single.php
+msgid "未分类"
+msgstr ""
+
+msgid "抢沙发"
+msgstr ""
+
+msgid "次浏览"
+msgstr ""
+
+msgid "条评论"
+msgstr ""
+
+msgid "阅读全文"
+msgstr ""
+
+msgid "继续阅读 %s"
+msgstr ""
+
+msgid "未找到内容"
+msgstr ""
+
+msgid "抱歉，没有找到相关内容。请尝试使用搜索功能。"
+msgstr ""
+
+#: single.php
+msgid "置顶"
+msgstr ""
+
+msgid "转载请注明来源："
+msgstr ""
+
+msgid "文章链接："
+msgstr ""
+
+msgid "正文到此结束"
+msgstr ""
+
+msgid "上一篇："
+msgstr ""
+
+msgid "下一篇："
+msgstr ""
+
+msgid "上一篇: 已经是第一篇了"
+msgstr ""
+
+msgid "下一篇: 已经是最后一篇了"
+msgstr ""
+
+msgid "吐槽"
+msgstr ""
+
+msgid "发"
+msgstr ""
+
+#: comments.php
+msgid "名字"
+msgstr ""
+
+msgid "邮箱"
+msgstr ""
+
+msgid "网址"
+msgstr ""
+
+msgid "评论内容"
+msgstr ""
+
+msgid "发射(●'◡'●)ﾉ♥"
+msgstr ""
+
+msgid "您的评论正在等待审核。"
+msgstr ""
+
+msgid "评论已关闭。"
+msgstr ""
+
+msgid "较早的评论"
+msgstr ""
+
+msgid "较新的评论"
+msgstr ""
+
+msgid "发表评论"
+msgstr ""
+
+msgid "回复 %s"
+msgstr ""
+
+msgid "取消回复"
+msgstr ""
+
+msgid "搜索："
+msgstr ""
+
+msgid "搜索..."
+msgstr ""
+
+msgid "搜索"
+msgstr ""
+
+msgid "您必须 <a href=\"%s\">登录</a> 才能发表评论。"
+msgstr ""
+
+msgid "以 <a href=\"%1$s\">%2$s</a> 身份登录。<a href=\"%3$s\" title=\"退出此账号\">退出?</a>"
+msgstr ""
+
+msgid "您的电子邮箱地址不会被公开。"
+msgstr ""
+
+msgid "必填项已用 <span class=\"required\">*</span> 标注"
+msgstr ""
+
+#: page.php
+msgid "更新于：%s"
+msgstr ""
+
+msgid "评论"
+msgstr ""
+
+msgid "条"
+msgstr ""
+
+#: 404.php
+msgid "404 - 页面未找到"
+msgstr ""
+
+msgid "抱歉，您访问的页面不存在或已被删除。"
+msgstr ""
+
+msgid "可能的原因："
+msgstr ""
+
+msgid "页面地址输入错误"
+msgstr ""
+
+msgid "页面已被移动或删除"
+msgstr ""
+
+msgid "链接已过期"
+msgstr ""
+
+msgid "您可以："
+msgstr ""
+
+msgid "返回首页"
+msgstr ""
+
+msgid "使用下方搜索功能"
+msgstr ""
+
+msgid "查看最新文章"
+msgstr ""
+
+msgid "搜索内容"
+msgstr ""
+
+msgid "最新文章"
+msgstr ""
+
+msgid "浏览分类"
+msgstr ""
+
+#: archive.php
+msgid "归档"
+msgstr ""
+
+#: search.php
+msgid "搜索结果：%s"
+msgstr ""
+
+msgid "找到 %s 个结果"
+msgstr ""
+
+msgid "查看详情"
+msgstr ""
+
+msgid "没有找到相关内容"
+msgstr ""
+
+msgid "抱歉，没有找到与您的搜索条件匹配的内容。"
+msgstr ""
+
+msgid "搜索建议："
+msgstr ""
+
+msgid "检查关键词拼写是否正确"
+msgstr ""
+
+msgid "尝试使用更通用的关键词"
+msgstr ""
+
+msgid "尝试使用不同的关键词"
+msgstr ""
+
+msgid "减少关键词数量"
+msgstr ""
+
+msgid "重新搜索"
+msgstr ""
+
+msgid "或浏览这些分类"
+msgstr ""
+
+#: functions.php
+msgid "主侧边栏"
+msgstr ""
+
+msgid "显示在主内容区域旁边的小工具。"
+msgstr ""
+
+msgid "底部小工具区域"
+msgstr ""
+
+msgid "显示在页脚的小工具区域。"
+msgstr ""
+
+msgid "标签："
+msgstr ""
+
+msgid "刚刚"
+msgstr ""
+
+msgid "年"
+msgstr ""
+
+msgid "月"
+msgstr ""
+
+msgid "天"
+msgstr ""
+
+msgid "小时"
+msgstr ""
+
+msgid "分钟"
+msgstr ""
+
+msgid "秒"
+msgstr ""
+
+msgid "前"
+msgstr ""
+
+msgid "社交链接"
+msgstr ""
+
+msgid "微博链接"
+msgstr ""
+
+msgid "QQ链接"
+msgstr ""
+
+msgid "GitHub链接"
+msgstr ""
+
+msgid "底部设置"
+msgstr ""
+
+msgid "底部文字"
+msgstr ""
+
+msgid "上一页"
+msgstr ""
+
+msgid "下一页"
+msgstr ""
+
+msgid "第"
+msgstr ""
+
+msgid "页"
+msgstr ""
+
+msgid "作者："
+msgstr ""
+
+msgid "404 错误"
+msgstr ""
+
