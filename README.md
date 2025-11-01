@@ -322,7 +322,6 @@ moe/
 
 ## 🎉 鸣谢
 
-- 原 emlog 主题作者
 - Font Awesome 图标库
 - WordPress 社区
 
